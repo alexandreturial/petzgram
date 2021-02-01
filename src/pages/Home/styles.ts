@@ -40,10 +40,10 @@ export const Container = styled.div`
 
 export const Footer = styled.footer`
       width: 100%;
-      height: 90px;
+     
      
       position: fixed;
-      top: 90%;
+      bottom: 0%;
       z-index: 1000;
 
       background: ${props => props.theme.colors.secundary};
