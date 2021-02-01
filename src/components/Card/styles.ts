@@ -37,7 +37,7 @@ export const Container = styled.div<ICardeProps>`
             
             header{
                   position: absolute;
-                  top: 10%;
+                  top: 5%;
             }
 
             & + div > header{
