@@ -89,7 +89,7 @@ export const FooterCard = styled.footer`
       padding: 0 30px;
       border-radius: 40px;
       
-      box-shadow: 0px 3px 4px 0px #424242ad;
+      
       background: ${props => props.theme.colors.primary};
 
       display: flex;

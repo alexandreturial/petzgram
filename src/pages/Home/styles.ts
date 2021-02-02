@@ -5,8 +5,9 @@ export const Container = styled.div`
     min-width: 315px;
 
     grid-area: CT;
-   
+    
     div{
+        border-radius: 8% 8% 14% 14%;
         & + div{
             border-radius: 8% 8% 14% 14%;
             margin-top: -35%;
@@ -28,7 +29,7 @@ export const Container = styled.div`
         & + div{
             border-radius: 8% 8% 14% 14%;
             margin-top: -10%;
-                  
+            
             height: calc(110% - 50px);
         }
       }
