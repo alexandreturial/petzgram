@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+interface IColort{
+    cor: boolean
+}
+
+export const Container = styled.div<IColort>`
     display: flex;
     align-items: center;
-
+   
    img{
        width: 50px;
        height: 50px;
@@ -15,8 +19,10 @@ export const Container = styled.div`
 
    div{
         padding: 0 5px;
-        color: white;
+        color: ${props => props.cor ? props.theme.colors.white : props.theme.colors.balck};
+
         
+
         h3{
             
             font: 300 15px Poppins;
@@ -25,5 +31,6 @@ export const Container = styled.div`
            
             font: 300 12px Poppins;
         }     
+        
    }
 `;

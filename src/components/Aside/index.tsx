@@ -6,11 +6,11 @@ import { Container } from './styles';
 const Aside: React.FC = () => {
   return (
       <Container>
-          <User/>
-          <User/>
-          <User/>
-          <User/>
-          <User/>
+          <User  color={true}/>
+          <User  color={true}/>
+          <User  color={true}/>
+          <User  color={true}/>
+          <User  color={true}/>
       </Container>
   );
 }

@@ -5,9 +5,13 @@ import user1 from '../../assets/user1.png';
 
 import { Container } from './styles';
 
-const User: React.FC = () => {
+interface IUserProps{
+  color?:boolean
+}
+
+const User: React.FC<IUserProps> = ({color}) => {
   return (
-    <Container>
+    <Container  cor={color ? true: false}>
         <img src={user1} alt={user1} />
         <div>
             <h3>User</h3>
