@@ -28,20 +28,20 @@ export const Logo  = styled.div`
 
 export const Options = styled.div`
     height: 100%;
-    
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     a{
         
+        width: 100%;
+       
         font: 300 15px Poppins;
 
         color: ${props => props.theme.colors.white};
 
-        :first-child{
-            margin-right: 15px;
-        }
+        
     }
     
 `;

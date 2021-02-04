@@ -20,7 +20,9 @@ const Footer: React.FC = () => {
             </Link>
             
             <BsSearch size={25} color="white"/>
-            <BsPlusCircle size={45} color="white"/>
+            <Link to="/new-post">
+              <BsPlusCircle size={45} color="white"/>
+            </Link>
             <BsHeart size={25} color="white"/>
             <BsPerson size={25} color="white"/> 
       </Container>

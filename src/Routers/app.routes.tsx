@@ -12,7 +12,7 @@ const AppRoutes: React.FC = ()=>(
         <Layout>
             <Route path="/" exact component={Home}/>
             <Route path="/Profile" exact component={Profile}/>
-            <Route path="/newPost" exact component={NewPost}/>
+            <Route path="/new-post" exact component={NewPost}/>
         </Layout>
     </BrowserRouter>
    

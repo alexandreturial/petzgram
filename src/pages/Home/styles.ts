@@ -37,22 +37,3 @@ export const Container = styled.div`
    }
 
 `;
-
-
-export const Footer = styled.footer`
-      width: 100%;
-     
-     
-      position: fixed;
-      bottom: 0%;
-      z-index: 1000;
-
-      background: ${props => props.theme.colors.secundary};
-      border-radius: 30px 30px 0 0;
-      
-      padding: 5px 30px;     
-      
-      @media(min-width:600px){
-            display: none;
-      }
-`;

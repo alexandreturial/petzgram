@@ -13,4 +13,8 @@ export const Container = styled.div`
     form{
         width: 50%;
     }
+    img{
+        width: 400px;
+        height: 400px;
+    }
 `;

@@ -9,12 +9,10 @@ import img6 from '../../assets/rabbit1.jpg';
 
 import CardLoading from '../../components/Shimmer/CardLoading';
 
-import Menu from '../../components/Footer';
 import Card from '../../components/Card'
 
 import { 
   Container,
-  Footer 
 } from './styles';
 
 
@@ -81,9 +79,7 @@ const Home: React.FC = () => {
             ))
           )
       }
-      <Footer>
-        <Menu />
-      </Footer>
+     
     </Container>
   );
 }

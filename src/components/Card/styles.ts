@@ -22,6 +22,7 @@ export const Container = styled.div<ICardeProps>`
       z-index: ${props => props.CardPosition};
       
       header{
+            width: 50%;
             position: absolute;
             top: 2%;
             left: 5%;
@@ -36,6 +37,7 @@ export const Container = styled.div<ICardeProps>`
             border-radius: 50px;
             
             header{
+                  width: 50%;
                   position: absolute;
                   top: 5%;
             }
