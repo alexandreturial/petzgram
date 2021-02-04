@@ -11,10 +11,19 @@ export const Container = styled.div`
     justify-content: center;
 
     form{
-        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 15px 30px;
     }
+
     img{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: auto;
+
+        max-height: 300px;
+        overflow: hidden;
     }
 `;

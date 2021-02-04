@@ -28,13 +28,16 @@ export const Logo  = styled.div`
 
 export const Options = styled.div`
     height: 100%;
-    width: 30%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     a{
-        
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
         width: 100%;
        
         font: 300 15px Poppins;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 50%;
+   
     height: 50px;
     
     display: flex;
@@ -17,7 +17,10 @@ export const Container = styled.div`
   }
 
   .bar-skeleton{
-    width: 70%;
+    width: 100px;
     height: 10px;
+
+    margin-left: 5px;
+    margin-top: 0;
   }
 `;

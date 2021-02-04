@@ -5,9 +5,10 @@ interface IColort{
 }
 
 export const Container = styled.div<IColort>`
+
     display: flex;
     align-items: center;
-   
+    
    img{
        width: 50px;
        height: 50px;
