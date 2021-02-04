@@ -124,6 +124,7 @@ export const Content = styled.div`
 `;
 
 export const Button = styled.button`
+    width:100%;
     height: 35px;
 
     background: ${props => props.theme.colors.gray};
