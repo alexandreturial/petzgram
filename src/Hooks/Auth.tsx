@@ -1,8 +1,10 @@
 import React, { createContext, useState, useContext } from 'react';
 
+import { registerUser } from '../firebase';
 
 interface IAuthContext{
     logged: boolean;
+    register(name: string, email: string, password:string): void;
     signIn(email: string, password:string): void;
     signOut(): void;
 }
@@ -15,6 +17,10 @@ const AuthProvider: React.FC = ({ children }) => {
     
         return !!isLogged;
     });
+
+    const register = (name: string, email: string, password: string) => {
+        registerUser(name, email, password);
+    }
 
     const signIn = (email: string, password: string) => {
         if(email === 'teste@mail.com' && password === '123456'){
@@ -31,7 +37,7 @@ const AuthProvider: React.FC = ({ children }) => {
     }
 
     return (
-        <AuthContext.Provider value={{logged, signIn, signOut}}>
+        <AuthContext.Provider value={{logged, signIn, signOut, register}}>
             {children}
         </AuthContext.Provider>
     )
